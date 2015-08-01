@@ -15,7 +15,7 @@
 *       Yazar            : Cerem Cem ASLAN                      *
 *                                                               *
 *       Başlama tarihi   : Ne bileyim ben (oldu bayaa)          *
-*       Bitiş tarihi     : 22 Haziran Cuma, saat: 03.43 GMT+2   *
+*       Bitiş tarihi     : 22 Haziran Cuma, 2007 saat: 03.43 GMT+2   *
 *                                                               *
 *       AÇIKLAMA         :                                      *
 *                                                               *
@@ -523,9 +523,11 @@ void
 ProgramHakkinda()
 {
 	cout << endl;
-#ifdef HFD_KULLAN
+#ifdef HFD_KULLAN
+
 	cout << "Hizli Fourier Donusumunu hesaplayan programdir. ";
-#else//AFD kullanılacak
+#else//AFD kullanılacak
+
 	cout << "Ayrik Fourier Donusumunu hesaplayan programdir. ";
 #endif//HFD_KULLAN
 	cout << "(surum : 1.0)" << endl;
